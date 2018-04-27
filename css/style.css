@@ -1,0 +1,114 @@
+/* GLOBAL */
+h1,h2,h3,h4,p,body,ul,li,a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DADADA;
+    padding: 7px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+    background: #fff;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* MAIN */
+.level1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+.text{
+    font-weight: 200;
+    font-size: 4.0rem;
+    margin-top: 10.0rem;
+    direction: rtl;
+    display: block;
+}
+img{
+    height: 50vw;
+    margin-right: -10vw;
+}
+
+.level2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.l21{
+    font-weight: 900;
+    font-size: 10.4rem;
+    text-align: center;
+}
+.l22{
+    font-weight: 400;
+    font-size: 2.0rem;
+    margin-top: 20px;
+    text-align: center;
+}
+.level3{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactCon{
+    font-size: 1.0rem;
+    text-align: center;
+    font-weight: 500;
+}
+.cc{
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.3rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+
+@media(max-width:930px){
+    .text{
+        font-size: 3.0rem;
+        margin-top: 100px;
+    }
+    img{
+        height: 60vw;
+    }
+}
+
+@media(max-width:420px){
+    .text{
+        font-size: 2.0rem;
+        margin-top: 100px;
+        margin-right: 
+    }
+    img{
+        height: 60vw;
+    }
+    .level3{
+        margin-top: 30px;
+    }
+}
+
